@@ -1,0 +1,126 @@
+/* Transaction CSS */
+  
+  .table {
+    background-color: aqua;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .defpadding {
+    padding: 10px;
+  }
+  
+  .th {
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .page {
+    width: fit-content;
+    text-align: center;
+    border-radius: 20% 10%;
+    box-shadow: darkorange 5px 9px 20px;
+    background-color: darkorange;
+    opacity: 80%;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .page:hover {
+    transform: rotate(10deg);
+  }
+  
+  .pages :first-child {
+    margin-left: 0;
+  }
+  
+  .pages :last-child {
+    margin-right: 0;
+  }
+  
+  .groupdiv {
+    width: fit-content;
+    background-color: aquamarine;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .searchdiv {
+    width: fit-content;
+    background-color: aquamarine;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    padding: 20px;
+    float: right;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .animate1page {
+      /* animation: page-spin infinite 1s linear; */
+      background-color: aqua;
+      /* transform: scale(1.5); */
+    }
+  }
+  
+  /* @keyframes page-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
+  .pagindiv {
+    width: fit-content;
+    background-color: aquamarine;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+    padding: 20px;
+    float: left;
+  }
+  
+  .headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout {
+    padding: 11px 20px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .logout:hover {
+    background-color: beige;
+  }
+  
+  .receipt {
+    width: 100px;
+    height: 80px;
+  }
+  
+  .sortHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
